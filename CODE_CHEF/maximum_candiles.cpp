@@ -39,6 +39,7 @@ int main(){
                 
             }  
         }
+        if(n==1 && m==1)sum=x;
         
         cout<<sum<<endl;
     }    
