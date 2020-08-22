@@ -7,12 +7,5 @@ int main(){
 
     ios_base::sync_with_stdio(false);
     cin.tie(NULL);
-    queue <char> q;
-    // q.push(10);
-    // cout<<q.back();
-    // cout<<q.front();
-    q.push(1);
-    cout<<q.front()<<endl;
-    cout<<"Akash";
-    
+    cout<<(char)97;
 }
