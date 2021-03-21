@@ -33,39 +33,22 @@ int main(){
     freopen("input.txt", "r", stdin);
     freopen("output.txt", "w", stdout);
     #endif
-    string s;
-    cin>>s;
-    int l,r;
-    l=0;
-    r=s.length()()-1;
-    while(l<=r){
-        char first,second;
-        first=l[i];
-        second=r[i];
-        if(first==second){
-        while (l<=r && s[l]==first)
-        {
-            l++;
-            if(l==r && a[l]=second){
-                cout<<0;
-                return 0;
-            }
-        }
-        while (r>=l && s[r]==second) 
-        {
-            r--;
-            if(l==r && a[r]=first){
-                cout<<0;
-                return 0;
-            }
-        }
-        }
-        else{
-            break;
-        }
-        
+    
+    int n;
+    int k;
+    take(a,n)
+    map<int,int,greater<int>> m;
+    for (int i = 0; i < n; i++)
+    {
+        mp[a[i]]=i+1;
     }
-    cout<<(r-l)+1;
+    int count=0;
+    for (auto i = m.begin(); i != m.end(); i++)
+    {
+        int head=i->first;
+        cout<<i->second<<" ";
+        mp.erase(head);
+    }
     
     return 0;
 }
