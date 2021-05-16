@@ -1,0 +1,8 @@
+For node 0 ::  1 
+For node 1 ::  2 
+For node 2 ::  3 
+For node 3 ::  0 
+0 1 2 3 
+0 1 2 3 
+0 1 2 3 
+Their is a cycle 
